@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Привет!'",
-  "check": "prettier --check './src/**/*.{html,css,js}'",
-  "format": "prettier --write './src/**/*.{html,css,js}'",
-  "lint": "stylelint './src/**/*.css'",
-  "lintfix": "stylelint './src/**/*.css' --fix",
-  "checkAll": "npm run check && npm run lint",
-  "fixAll": "npm run format && npm run lintfix",
-  "build": "npx gulp build",
-  "dev": "gulp"
+    "check": "prettier --check './src/**/*.{html,css,js}'",
+    "format": "prettier --write './src/**/*.{html,css,js}'",
+    "lint": "stylelint './src/**/*.css'",
+    "lintfix": "stylelint './src/**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix",
+    "build": "npx gulp build",
+    "dev": "gulp"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,7 @@
   "devDependencies": {
     "browser-sync": "^3.0.4",
     "del": "^6.0.0",
-    "gulp": "^5.0.1",
+    "gulp": "^4.0.2",
     "gulp-concat-css": "^3.1.0",
     "gulp-plumber": "^1.2.1"
   }
